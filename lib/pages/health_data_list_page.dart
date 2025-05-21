@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../database/health_database.dart';
-import '../models/health_data_model.dart';
+import '/models/health_data_model.dart';
 
 class HealthDataListPage extends StatefulWidget {
   const HealthDataListPage({super.key});
@@ -30,7 +30,9 @@ class _HealthDataListPageState extends State<HealthDataListPage> {
           } else if (snapshot.hasError) {
             return Center(child: Text('Hata: ${snapshot.error}'));
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-            return const Center(child: Text('Kayıtlı sağlık verisi bulunamadı.'));
+            return const Center(
+              child: Text('Kayıtlı sağlık verisi bulunamadı.'),
+            );
           }
 
           final data = snapshot.data!;

@@ -6,6 +6,10 @@
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSHealthShareUsageDescription</key>
+<string>Sağlık verilerinize (kan şekeri, kalp atışı, adım sayısı) erişim gerekiyor.</string>
+<key>NSHealthUpdateUsageDescription</key>
+<string>Uygulama sağlık verilerine katkıda bulunmak için veri yazabilir.</string>
 	<key>CFBundleDisplayName</key>
 	<string>Health Ai App</string>
 	<key>CFBundleExecutable</key>
@@ -26,10 +30,6 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSHealthShareUsageDescription</key>
-	<string>Bu uygulama sağlık verilerinizi analiz etmek için erişir.</string>
-	<key>NSHealthUpdateUsageDescription</key>
-	<string>Uygulama, sağlık verilerini analiz ederek öneriler sunar.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
